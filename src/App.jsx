@@ -7,7 +7,7 @@ import { Provider } from "react-redux";
 import store from "store/store";
 import ProtectedRoute from "ProtectedRoute";
 import {io} from 'socket.io-client'
-export const socket = io("https://momobackend-5fbf.onrender.com/",{
+export const socket = io("https://digitalfoodbackend.onrender.com/",{
   auth : {
     token : localStorage.getItem('token')
   }
